@@ -1,0 +1,107 @@
+2025-12-09 10:12:32,899 - INFO - ============================================================
+2025-12-09 10:12:32,927 - INFO - eBay Laptops Scraper Scheduler
+2025-12-09 10:12:32,928 - INFO - Start Time: 2025-12-09 10:12:32
+2025-12-09 10:12:32,928 - INFO - ============================================================
+2025-12-09 10:12:32,929 - INFO - Scheduled: Every 6 hours
+2025-12-09 10:12:32,931 - INFO - Scheduled daily at: 08:00, 14:00, 20:00
+2025-12-09 10:12:32,932 - INFO - Current schedule:
+2025-12-09 10:12:32,934 - INFO -   - Job(interval=6, unit=hours, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:12:32,990 - INFO -   - Job(interval=1, unit=days, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:12:32,991 - INFO -   - Job(interval=1, unit=days, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:12:32,991 - INFO -   - Job(interval=1, unit=days, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:12:32,992 - INFO - Running initial job...
+2025-12-09 10:12:32,993 - INFO - ============================================================
+2025-12-09 10:12:32,993 - INFO - Starting eBay scraping job at: 2025-12-09 10:12:32
+2025-12-09 10:12:32,994 - INFO - Step 1: Scraping data from eBay...
+2025-12-09 10:13:55,783 - INFO - Step 1 Complete: Found 149 products
+2025-12-09 10:13:55,785 - INFO - Step 2: Saving to MongoDB...
+2025-12-09 10:13:57,728 - INFO - Step 2 Complete: Saved 149 products to MongoDB
+2025-12-09 10:13:57,732 - INFO - Step 3: Creating backup file...
+2025-12-09 10:13:57,805 - INFO - Step 3 Complete: Backup created: ebay_laptops_backup_20251209_101357.json
+2025-12-09 10:13:57,806 - INFO - Step 4: Generating statistics...
+2025-12-09 10:13:57,807 - ERROR - Error in scraping job: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2025-12-09 10:13:57,908 - ERROR - Traceback (most recent call last):
+  File "E:\data engineer\ebay laptops\scheduled_scraper.py", line 60, in run_scraping_job
+    if mongodb.collection:
+       ^^^^^^^^^^^^^^^^^^
+  File "D:\venv\main\Lib\site-packages\pymongo\synchronous\collection.py", line 311, in __bool__
+    raise NotImplementedError(
+    ...<3 lines>...
+    )
+NotImplementedError: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+
+2025-12-09 10:13:57,912 - INFO - Job completed at: 2025-12-09 10:13:57
+2025-12-09 10:13:57,913 - INFO - ============================================================
+2025-12-09 10:13:58,025 - INFO - Scheduler is running. Checking for scheduled jobs...
+2025-12-09 10:13:58,026 - INFO - Press Ctrl+C to stop
+2025-12-09 10:17:43,940 - INFO - Scheduler stopped by user
+2025-12-09 10:20:11,574 - INFO - ============================================================
+2025-12-09 10:20:11,648 - INFO - eBay Laptops Scraper Scheduler
+2025-12-09 10:20:11,649 - INFO - Start Time: 2025-12-09 10:20:11
+2025-12-09 10:20:11,649 - INFO - ============================================================
+2025-12-09 10:20:11,650 - INFO - Scheduled: Every 6 hours
+2025-12-09 10:20:11,651 - INFO - Scheduled daily at: 08:00, 14:00, 20:00
+2025-12-09 10:20:11,652 - INFO - Current schedule:
+2025-12-09 10:20:11,652 - INFO -   - Job(interval=6, unit=hours, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:20:11,653 - INFO -   - Job(interval=1, unit=days, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:20:11,655 - INFO -   - Job(interval=1, unit=days, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:20:11,656 - INFO -   - Job(interval=1, unit=days, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:20:11,657 - INFO - Running initial job...
+2025-12-09 10:20:11,658 - INFO - ============================================================
+2025-12-09 10:20:11,658 - INFO - Starting eBay scraping job at: 2025-12-09 10:20:11
+2025-12-09 10:20:11,659 - INFO - Step 1: Scraping data from eBay...
+2025-12-09 10:21:34,584 - INFO - Step 1 Complete: Found 149 products
+2025-12-09 10:21:34,586 - INFO - Step 2: Saving to MongoDB...
+2025-12-09 10:21:36,929 - INFO - Step 2 Complete: Saved 149 products to MongoDB
+2025-12-09 10:21:36,930 - INFO - Step 3: Creating backup file...
+2025-12-09 10:21:36,956 - INFO - Step 3 Complete: Backup created: ebay_laptops_backup_20251209_102136.json
+2025-12-09 10:21:36,960 - INFO - Step 4: Generating statistics...
+2025-12-09 10:21:37,050 - INFO - Brand Distribution:
+2025-12-09 10:21:37,051 - INFO -   - Dell: 34 products
+2025-12-09 10:21:37,052 - INFO -   - Apple: 32 products
+2025-12-09 10:21:37,052 - INFO -   - Lenovo: 28 products
+2025-12-09 10:21:37,053 - INFO -   - HP: 18 products
+2025-12-09 10:21:37,054 - INFO -   - Acer: 14 products
+2025-12-09 10:21:37,055 - ERROR - Error in scraping job: 'MongoDBHandler' object has no attribute 'close_connection'
+2025-12-09 10:21:37,153 - ERROR - Traceback (most recent call last):
+  File "E:\data engineer\ebay laptops\scheduled_scraper.py", line 72, in run_scraping_job
+    mongodb.close_connection()
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MongoDBHandler' object has no attribute 'close_connection'
+
+2025-12-09 10:21:37,160 - INFO - Job completed at: 2025-12-09 10:21:37
+2025-12-09 10:21:37,171 - INFO - ============================================================
+2025-12-09 10:21:37,192 - INFO - Scheduler is running. Checking for scheduled jobs...
+2025-12-09 10:21:37,193 - INFO - Press Ctrl+C to stop
+2025-12-09 10:23:14,557 - INFO - Scheduler stopped by user
+2025-12-09 10:24:59,560 - INFO - ============================================================
+2025-12-09 10:24:59,687 - INFO - eBay Laptops Scraper Scheduler
+2025-12-09 10:24:59,689 - INFO - Start Time: 2025-12-09 10:24:59
+2025-12-09 10:24:59,690 - INFO - ============================================================
+2025-12-09 10:24:59,691 - INFO - Scheduled: Every 6 hours
+2025-12-09 10:24:59,694 - INFO - Scheduled daily at: 08:00, 14:00, 20:00
+2025-12-09 10:24:59,695 - INFO - Current schedule:
+2025-12-09 10:24:59,697 - INFO -   - Job(interval=6, unit=hours, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:24:59,698 - INFO -   - Job(interval=1, unit=days, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:24:59,702 - INFO -   - Job(interval=1, unit=days, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:24:59,706 - INFO -   - Job(interval=1, unit=days, do=run_scraping_job, args=(), kwargs={})
+2025-12-09 10:24:59,707 - INFO - Running initial job...
+2025-12-09 10:24:59,708 - INFO - ============================================================
+2025-12-09 10:24:59,709 - INFO - Starting eBay scraping job at: 2025-12-09 10:24:59
+2025-12-09 10:24:59,711 - INFO - Step 1: Scraping data from eBay...
+2025-12-09 10:26:13,230 - INFO - Step 1 Complete: Found 149 products
+2025-12-09 10:26:13,231 - INFO - Step 2: Saving to MongoDB...
+2025-12-09 10:26:15,019 - INFO - Step 2 Complete: Saved 149 products to MongoDB
+2025-12-09 10:26:15,020 - INFO - Step 3: Creating backup file...
+2025-12-09 10:26:15,103 - INFO - Step 3 Complete: Backup created: ebay_laptops_backup_20251209_102615.json
+2025-12-09 10:26:15,104 - INFO - Step 4: Generating statistics...
+2025-12-09 10:26:15,178 - INFO - Brand Distribution:
+2025-12-09 10:26:15,178 - INFO -   - HP: 31 products
+2025-12-09 10:26:15,179 - INFO -   - Dell: 30 products
+2025-12-09 10:26:15,180 - INFO -   - Apple: 23 products
+2025-12-09 10:26:15,180 - INFO -   - Lenovo: 22 products
+2025-12-09 10:26:15,181 - INFO -   - Acer: 19 products
+2025-12-09 10:26:15,182 - INFO - Job completed at: 2025-12-09 10:26:15
+2025-12-09 10:26:15,182 - INFO - ============================================================
+2025-12-09 10:26:15,184 - INFO - Scheduler is running. Checking for scheduled jobs...
+2025-12-09 10:26:15,184 - INFO - Press Ctrl+C to stop
