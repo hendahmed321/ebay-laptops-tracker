@@ -24,3 +24,6 @@ An end-to-end data engineering pipeline that automatically collects, processes, 
 | **MongoDB Charts** | Data visualization dashboard |
 | **Schedule** | Task scheduling automation |
 | **Regex** | Data extraction and cleaning |
+
+## Architecture
+<img width="671" height="226" alt="workflow" src="https://github.com/user-attachments/assets/fede8607-1318-40d3-8c79-2c083ab91e57" />
