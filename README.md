@@ -27,6 +27,7 @@ An end-to-end data engineering pipeline that automatically collects, processes, 
 | **Regex** | Data extraction and cleaning |
 
 ## Sample Data
+[deepseek_json_20251209_4c74c2.json](https://github.com/user-attachments/files/24060616/deepseek_json_20251209_4c74c2.json)
 {
   "title": "Lenovo ThinkPad T14 Gen 2 14\" Laptop",
   "price": 299.0,
