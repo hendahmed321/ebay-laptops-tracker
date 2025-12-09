@@ -26,22 +26,5 @@ An end-to-end data engineering pipeline that automatically collects, processes, 
 | **Schedule** | Task scheduling automation |
 | **Regex** | Data extraction and cleaning |
 
-## Sample Data
-[deepseek_json_20251209_4c74c2.json](https://github.com/user-attachments/files/24060616/deepseek_json_20251209_4c74c2.json)
-{
-  "title": "Lenovo ThinkPad T14 Gen 2 14\" Laptop",
-  "price": 299.0,
-  "brand": "Lenovo",
-  "condition": "Good - Refurbished",
-  "ram": "16GB",
-  "storage": "256GB SSD",
-  "processor": "Intel",
-  "screen_size": "14\"",
-  "quantity_sold": "37 watching",
-  "image_url": "https://i.ebayimg.com/...",
-  "scraped_at": "2024-01-15T08:00:00",
-  "stored_at": "2024-01-15T08:00:05"
-}
-
 ## Architecture
 <img width="671" height="226" alt="workflow" src="https://github.com/user-attachments/assets/fede8607-1318-40d3-8c79-2c083ab91e57" />
