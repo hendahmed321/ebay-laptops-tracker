@@ -4,6 +4,7 @@
 An end-to-end data engineering pipeline that automatically collects, processes, and visualizes laptop price data from eBay for market analysis and price tracking.
 
 **Live Dashboard:** [View MongoDB Charts Dashboard](https://charts.mongodb.com/charts-project-0-fqyccyb/dashboards/69328730-0876-40aa-829c-3389f21ca972)
+
 <img width="1349" height="363" alt="charts" src="https://github.com/user-attachments/assets/b383777e-1ce0-47ab-a532-cd4b77314646" />
 
 ## Features
