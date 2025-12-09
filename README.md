@@ -1,4 +1,4 @@
-<img width="1358" height="386" alt="first" src="https://github.com/user-attachments/assets/9bdd1559-22bb-48aa-b568-a77b3b2d5597" />
+<img width="1349" height="363" alt="charts" src="https://github.com/user-attachments/assets/b383777e-1ce0-47ab-a532-cd4b77314646" />
 # eBay Laptops Price Tracker & Analytics
 
 ## Project Overview
