@@ -5,7 +5,7 @@ An end-to-end data engineering pipeline that automatically collects, processes, 
 
 **Live Dashboard:** [View MongoDB Charts Dashboard](https://charts.mongodb.com/charts-project-0-fqyccyb/dashboards/69328730-0876-40aa-829c-3389f21ca972)
 
-<img width="792" height="958" alt="Dashboard_Day_2" src="https://github.com/user-attachments/assets/5612832c-80fa-454a-905e-c9e79bed05aa" />
+<img width="1553" height="526" alt="dashboard" src="https://github.com/user-attachments/assets/66b72cca-e78d-4423-9915-c0d27b9cfeae" />
 
 
 ## Features
