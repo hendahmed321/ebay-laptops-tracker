@@ -5,7 +5,8 @@ An end-to-end data engineering pipeline that automatically collects, processes, 
 
 **Live Dashboard:** [View MongoDB Charts Dashboard](https://charts.mongodb.com/charts-project-0-fqyccyb/dashboards/69328730-0876-40aa-829c-3389f21ca972)
 
-<img width="1349" height="363" alt="charts" src="https://github.com/user-attachments/assets/b383777e-1ce0-47ab-a532-cd4b77314646" />
+<img width="792" height="958" alt="Dashboard_Day_2" src="https://github.com/user-attachments/assets/5612832c-80fa-454a-905e-c9e79bed05aa" />
+
 
 ## Features
 - **Automated Data Collection**: Daily scraping of 150+ laptop listings from eBay
